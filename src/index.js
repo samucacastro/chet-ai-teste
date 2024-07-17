@@ -3,7 +3,7 @@ import cors from 'cors';
 import { router } from './routers.js';
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:4200' }));
+app.use(cors({ origin: 'https://teste-chat-ai.rf.gd' }));
 
 app.use(router);
  
